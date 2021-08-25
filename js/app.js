@@ -16,9 +16,6 @@ $(document).ready(function () {
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
 
-    
-
-
     // Validacion de inputs
     $('input').on({
         keydown: function(e) {
